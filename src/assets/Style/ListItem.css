@@ -1,0 +1,39 @@
+.ListItem-Container{
+    width: 40rem;
+}
+th:first-child,
+td:first-child {
+  width: 8%; /* ปรับความกว้างของเซลล์แรก */
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30.7%; 
+  }
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+th{
+    background: rgb(3, 167, 3);
+    color: #fff;
+}
+td{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.btn{
+    padding: 5px;
+    color:#fff;
+    border: none;
+    width: 3rem;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.btn.delete{
+    background: red;
+} 
+.btn.edit{
+    background: rgb(7, 152, 106);
+} 
